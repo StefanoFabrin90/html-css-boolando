@@ -44,7 +44,10 @@
     background-color: white;
     text-align: center;
     line-height: 30px;
-    
+}
+
+.product:hover .heart{
+    color: red;
 }
 
 .discount{
@@ -53,7 +56,10 @@
     position: absolute;
     bottom: 0;
     left : 5px;
-    padding: 2px 2px;
+    padding: 3px 3px;
+    font-weight: 700;
+    font-size: 10px;
+    display: inline-block;
 }
 
 .sustainability{
@@ -61,8 +67,11 @@
     color: white;
     position: absolute;
     bottom: 0;
-    left : 40px;
-    padding: 2px 2px;
+    left : 35px;
+    padding: 3px 3px;
+    font-weight: 700;
+    font-size: 10px;
+    display: inline-block;
 }
 
 .sustainability-1{
@@ -71,7 +80,10 @@
     position: absolute;
     bottom: 0;
     left: 5px;
-    padding: 2px 2px;
+    padding: 3px 3px;
+    font-weight: 700;
+    font-size: 10px;
+    display: inline-block;
 
 }
 
@@ -89,13 +101,14 @@
     margin-bottom: 80px;
 }
 
-.img-2{
+.img-1b{
     display: none;
 }
 
 .immagini:hover .img-1{
 display: none;
 }
-.immagini:hover .img-2{
+.immagini:hover .img-1b{
 display: inline-block
 }
+
